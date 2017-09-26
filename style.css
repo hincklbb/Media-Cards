@@ -1,0 +1,15 @@
+.parent-properties{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-between;
+}
+.child-properties{
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 200px;
+  order: 5;
+  align-self: flex-end;
+}
